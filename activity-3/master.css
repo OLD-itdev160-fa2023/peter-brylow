@@ -1,12 +1,8 @@
 /* the styles for the elements */
 body {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-family: 'Grape Nuts', cursive;
-    font-size: 150%;
-	color: #130c04;
+	font-family: "Open Sans", sans-serif;
+	color: #555
 	
-	background-image: 
-	radial-gradient(circle, rgb(231, 17, 17), rgb(255, 208, 0), rgb(0, 41, 128));
 
 	
 }
@@ -21,13 +17,30 @@ aside {
   }
 
 h1 {
-	text-shadow: 2px 2px;
+	color: #555;
+	background-color:#eee;
   }
 
-h1 {
-	text-align: center;
-	color: #611d11;
-}
+
+  img {
+	height: 100px;
+	text-align: left;
+  }
+
+  figcaption span {
+	font-size: .85em;
+  }
+
+  p#product-description {
+	margin: 20px 0 20px 0;
+	text-align: justify;
+  }
+
+  div.review {
+	padding: 10px;
+	background-color: #eee;
+	margin: 20px 0 20px 0;
+  }
 
 h2 {
 	text-align: center;
