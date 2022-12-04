@@ -68,11 +68,11 @@ const quizData = [
     },
     {
         question: "The largest star that has been identified so far is called?",
-        a: "Sirius XY",
+        a: "UY Scuti",
         b: "Molus-47",
         c: "Qualm",
-        d: "UY Scuti",
-        correct: "d",
+        d: "Sirius XY",
+        correct: "a",
     },
     {
         question: "How many seeds can a redwood tree produce in a year",
@@ -82,14 +82,7 @@ const quizData = [
         d: "10001-100000",
         correct: "d",
     },
-    {
-        question: "When was the first smartphone introduced?",
-        a: "1989",
-        b: "1994",
-        c: "1999",
-        d: "2001",
-        correct: "b",
-    },
+ 
     {
         question: "How much biodiversity has the rise of humankind been estimated to have destroyed so far?",
         a: "Less than 1% ",
@@ -98,6 +91,15 @@ const quizData = [
         d: "More than 50%",
         correct: "d",
     },
+
+    {
+        question: "What do the 3 pictures have in common?",
+        a: "They are of nature",
+        b: "They are of technology",
+        c: "Geometrical similarities",
+        d: "Any commonalities are coincidental, because they are random images.",
+        correct: "d",
+    }
 ];
 
 const quiz = document.getElementById('quiz')
